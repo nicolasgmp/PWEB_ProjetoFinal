@@ -26,16 +26,14 @@ const CartPage = () => {
       <h2>Meu Carrinho</h2>
       <div className="cart-items-list">
         {cartItems.map((item) => (
-          <div key={item.cartId} className="cart-item"> {/* A key agora é o cartId */}
+          <div key={item.cartId} className="cart-item">
             <img src={item.image} alt={item.name} className="cart-item-image" />
             <div className="cart-item-details">
               <h3>{item.name}</h3>
-              {/* Exibe a numeração do produto */}
               <p className="cart-item-spec">Numeração: {item.size}</p> 
               <p className="cart-item-spec">Quantidade: {item.quantity}</p>
               <p>Preço Unitário: {item.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</p>
             </div>
-            {/* O botão de remover agora passa o cartId */}
             <button onClick={() => removeFromCart(item.cartId)} className="remove-item-btn">
               Remover
             </button>
@@ -45,7 +43,6 @@ const CartPage = () => {
    <div className="cart-summary">
   <h3>Total: {totalPrice.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h3>
   
-  {/* Botão atualizado para ser um Link */}
   <Link to="/checkout" className="checkout-btn">
     Finalizar Compra
   </Link>

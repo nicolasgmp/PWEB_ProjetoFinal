@@ -25,7 +25,6 @@ const ProductCard = ({ product }) => {
         <h3 className="product-brand">{product.brand}</h3>
         <h2 className="product-name">{product.name}</h2>
         
-        {/* Seletor de Numeração */}
         <div className="product-size-selector">
           <label htmlFor={`size-select-${product.id}`}>Numeração:</label>
           <select 

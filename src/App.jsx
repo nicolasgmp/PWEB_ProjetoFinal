@@ -19,20 +19,13 @@ function App() {
           <Header />
           <div className="main-content">
             <Routes>
-              {/* Rota principal redireciona para a página de tênis */}
               <Route path="/" element={<Navigate replace to="/tenis" />} />
-              
-              {/* Rotas de Produtos */}
               <Route path="/tenis" element={<ShoesPage />} />
               <Route path="/camisetas" element={<JerseysPage />} />
               <Route path="/bolas" element={<BallsPage />} />
-              
-              {/* Rotas do Fluxo de Compra */}
               <Route path="/cart" element={<CartPage />} />
               <Route path="/checkout" element={<CheckoutPage />} />
               <Route path="/order-confirmation" element={<OrderConfirmationPage />} />
-
-              {/* Rota para qualquer caminho não encontrado */}
               <Route path="*" element={<Navigate replace to="/" />} />
             </Routes>
           </div>

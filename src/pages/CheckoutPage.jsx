@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useCart } from '../CartContext';
 import { useNavigate } from 'react-router-dom';
 import { FaCreditCard, FaBarcode } from 'react-icons/fa';
-import '../Styles/CheckoutPage.css';
+import '../Styles/checkoutPage.css'
 
 const CheckoutPage = () => {
   const { cartItems, clearCart } = useCart();
