@@ -30,10 +30,8 @@ Um protótipo funcional de e-commerce construído com React, originalmente focad
 
 ```
 /basket-kicks-store
-|-- /public
 |-- /src
-|   |-- /assets
-|   |-- /components
+|   |-- /Components
 |   |   |-- BallCard.jsx
 |   |   |-- Footer.jsx    
 |   |   |-- Header.jsx
@@ -123,7 +121,7 @@ Um protótipo funcional de e-commerce construído com React, originalmente focad
 
    ```bash
    git clone <url-do-repositorio>
-   cd basket-kicks-store
+   cd <nome-do-repositorio>
    ```
 
 2. **Instale as dependências:**
