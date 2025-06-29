@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike LeBron XXI",
+      "brand": "Nike",
+      "price": 1299.99,
+      "image": "https://images.tcdn.com.br/img/img_prod/740066/nike_lebron_21_abalone_4687_1_3d0cf4bb9bea33a80fd714e796d4fa57.jpeg",
+      "description": "O LeBron XXI tem um sistema de cabos que funciona com o amortecimento Zoom Air e um design leve e rente ao chão, proporcionando agilidade e explosividade fluidas sem excesso de peso.",
+      "sizes": [39, 40, 41, 42, 43]
+    },
+    {
+      "id": 2,
+      "name": "Jordan Tatum 2",
+      "brand": "Jordan",
+      "price": 999.99,
+      "image": "https://droper-media.us-southeast-1.linodeobjects.com/252024212598.webp",
+      "description": "O Tatum 2 foi criado para mantê-lo jogando até a campainha final. Ele é feito com um quadro de baixo perfil e cápsulas de ar estrategicamente posicionadas para uma sensação contida no pé e retorno de energia.",
+        "sizes": [40, 41, 42]
+    },
+    {
+      "id": 3,
+      "name": "Adidas Harden Vol. 8",
+      "brand": "Adidas",
+      "price": 1199.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d952e16c51a94199808a92466dc259e4_9366/Tenis_Harden_Volume_8_Rosa_IE2698_01_standard.jpg",
+      "description": "Este tênis de basquete exclusivo de James Harden e adidas Basketball tem tudo a ver com o flow. Ele foi desenvolvido para oferecer uma mistura de suporte no mediopé para movimentos dinâmicos e amortecimento para conforto.",
+       "sizes": [39, 40, 41, 42, 43]
+    },
+    {
+      "id": 4,
+      "name": "Puma MB.03",
+      "brand": "Puma",
+      "price": 1099.90,
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/379221/01/sv01/fnd/BRA/fmt/png/Tenis-de-basquete-MB.03",
+      "description": "O MB.03, terceiro tênis assinado por LaMelo Ball, leva-nos a uma viagem ao universo alternativo nunca antes visto que é o mundo de Melo. A entressola NITROFOAM™ proporciona potência em quadra, enquanto o cabedal em malha oferece um suporte respirável.",
+      "sizes": [41, 42, 43]
+    },
+    {
+      "id": 5,
+      "name": "Under Armour Curry 11",
+      "brand": "Under Armour",
+      "price": 1249.99,
+      "image": "https://decathlonpro.vtexassets.com/arquivos/ids/163713796/17313592187916.jpg?v=638670404640400000",
+      "description": "O futuro do jogo está em mudar de direção. O Curry 11 foi projetado para isso, com a tecnologia UA Warp para estabilidade e o amortecimento UA Flow de dupla densidade para conforto e desempenho.",
+      "sizes": [38, 39, 40, 41]
+    },
+    {
+      "id": 6,
+      "name": "Nike KD16",
+      "brand": "Nike",
+      "price": 1049.99,
+      "image": "https://acdn-us.mitiendanube.com/stores/001/226/115/products/kd-16-ep-ready-play-deep-royal-11-0d75b31b4fde0c9f5716935900629740-480-0.jpg",
+      "description": "O KD16 é para os obcecados por basquete que não se cansam de jogar. Com uma unidade Nike Air e Zoom Air na parte inferior, ele oferece velocidade e estabilidade para todas as quatro paradas.",
+      "sizes": [40, 41, 42, 43, 44, 45]
+    }
+  ],
+
+  "jerseys": [
+    {
+      "id": 101, "name": "Lakers - Association Edition", "team": "Los Angeles Lakers", "price": 349.99, "image": "https://acdn-us.mitiendanube.com/stores/002/341/698/products/regata-los-angeles-lakers-association-edition-2018-24-branca-azul-amarela-authentic-0714515eb7cab634e017251481533126-1024-1024.png", "category": "atual", "sizes": ["P", "M", "G", "GG"]
+    },
+    {
+      "id": 102, "name": "Celtics - City Edition 2024", "team": "Boston Celtics", "price": 379.99, "image": "https://acdn-us.mitiendanube.com/stores/002/341/698/products/regata-boston-celtics-city-edition-2024-2025-evolucao-e-heranca-1-06055dcd8c33d839c317352275869034-1024-1024.png", "category": "city-edition", "sizes": ["P", "M", "G"]
+    },
+    {
+      "id": 103, "name": "Bulls - Michael Jordan #23", "team": "Chicago Bulls", "price": 499.99, "image": "https://acdn-us.mitiendanube.com/stores/001/226/115/products/regata-nba-nike-swingman-chicago-bulls-vermelha-jordan-231-0aa70c36158429c15615914100592474-640-0.jpg", "category": "retro", "sizes": ["M", "G", "GG"]
+    },
+    {
+      "id": 105, "name": "T-Shirt Vintage Allen Iverson - Azul", "team": "Philadelphia 76ers", "price": 179.90, "image": "https://projetoinfluencer.vteximg.com.br/arquivos/ids/5904140-640-960/Regata-Mitchell---Ness-Alternate-Swingman-Jersey-Philadelphia-76ers-1999-00-Allen-Iverson-Azul-Royal.jpg?v=638564346489800000", "category": "vintage", "sizes": ["P", "M", "G"]
+    },
+
+    {
+      "id": 105, "name": "Regata NBA Mitchell & Ness Retrô - Toronto Raptors - roxa - Carter #15", "team": "Philadelphia 76ers", "price": 179.90, "image": "https://images.tcdn.com.br/img/img_prod/1044362/camisa_nba_toronto_raptors_1998_99_mitchell_eamp_ness_hardwood_classics_swingman_roxa_vince_carter_1_2604_1_8aa59f1068937f93e30f8445ca8f522d.jpg", "category": "vintage", "sizes": ["P", "M", "G"]
+    },
+
+    {
+      "id": 105, "name": "Camiseta Regata NBA Adidas Oklahoma City Thunder Home", "team": "Oklahoma City", "price": 179.90, "image": "https://acdn-us.mitiendanube.com/stores/001/226/115/products/regata-nba-nike-swingman-oklahoma-city-thunder-azul-gilgeous-alexander-21-321a30115b0672a30f15913691490440-1024-1024.jpg", "category": "vintage", "sizes": ["P", "M", "G"]
+    }
+  ],
+  "balls": [
+    {
+      "id": 201, "name": "Spalding TF-1000 Legacy", "brand": "Spalding", "price": 449.90, "image": "https://images-na.ssl-images-amazon.com/images/I/91KxA2QlJVL._SS400_.jpg", "description": "Bola oficial de diversas federações, feita com microfibra de alta performance."
+    },
+    {
+      "id": 202, "name": "Wilson NBA Authentic Series", "brand": "Wilson", "price": 299.99, "image": "https://m.media-amazon.com/images/I/710tPnE4KcL.jpg", "description": "Bola oficial da NBA, ideal para quadras externas com alta durabilidade."
+    },
+    {
+      "id": 203, "name": "Nike Everyday Playground", "brand": "Nike", "price": 149.99, "image": "https://decathlonstore.vtexassets.com/unsafe/fit-in/394x364/center/middle/https%3A%2F%2Fdecathlonpro.vtexassets.com%2Farquivos%2Fids%2F163611498-628-628%2F16939422488527.jpg%3Fv%3D638667883298570000", "description": "Feita para o jogo outdoor, com canais profundos para melhor controle."
+    }
+  ]
+}

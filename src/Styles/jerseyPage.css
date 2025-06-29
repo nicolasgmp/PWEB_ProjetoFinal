@@ -1,0 +1,27 @@
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-container button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-container button:hover {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+}
+
+.filter-container button.active {
+  background-color: #7f00ff;
+  color: white;
+  border-color: #7f00ff;
+}

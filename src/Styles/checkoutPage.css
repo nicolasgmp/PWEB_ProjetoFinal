@@ -1,0 +1,86 @@
+.checkout-page {
+  padding: 2rem 0;
+}
+
+.checkout-form .form-section {
+  background-color: #f9f9f9;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.checkout-form h3 {
+  margin-top: 0;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.checkout-form input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.payment-options {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.payment-options button {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.payment-options button.active {
+  border-color: var(--accent-color);
+  background-color: #fff7f2;
+}
+
+.payment-details .card-flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.payment-details .pix-details {
+  text-align: center;
+}
+
+.checkout-summary {
+  text-align: right;
+}
+
+.checkout-summary h3 {
+  border: none;
+}
+
+.finalize-btn {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.finalize-btn:hover {
+  background-color: #248a7f;
+}
